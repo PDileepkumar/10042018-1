@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--[if IE]>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <![endif]-->
+        <meta name="author" content="itgeeksin.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Harry's Kids</title>
+        <!-- Bootstrap -->
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- Master Css -->
+        <link href="main.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--//================preloader  start==============//--> 
+        <div class="loader">
+            <div class="rotating">
+                <img src ="assets/img/preloader-img.gif" class="flip">
+                <h3>Harry's Kids</h3>
+            </div>
+        </div>
+        <!--//================preloader  end==============//-->  
+        <!--//================Header start==============//-->  
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>hello@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>040 254 256</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-right small-left">
+                        <ul>
+                            <a href="#" class="square-box default-btn"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                            <a href="#" class="square-box default-btn"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                            <a href="#" class="square-box default-btn"><span><i class="fa fa-dribbble" aria-hidden="true"></i></span></a>
+                            <a href="#" class="square-box default-btn"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+                            <a href="#" class="square-box default-btn"><span><i class="fa fa-pinterest" aria-hidden="true"></i></span></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div id="main-menu" class="wa-main-menu">
+                <!-- Menu -->
+                <div class="wathemes-menu relative">
+                    <!-- navbar -->
+                    <div class="navbar navbar-default theme-bg mar0" role="navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="right-pink-shape">
+                                        <div class="navbar-header">
+                                            <!-- Button For Responsive toggle -->
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span> 
+                                            <span class="icon-bar"></span> 
+                                            <span class="icon-bar"></span> 
+                                            <span class="icon-bar"></span>
+                                            </button> 
+                                            <!-- Logo -->
+                                            <a class="navbar-brand" href="index.html">
+                                            <img class="site_logo" alt="Site Logo"  src="assets/img/logo.png" />
+                                            </a>
+                                        </div>
+                                        <!-- Navbar Collapse -->
+                                        <div class="navbar-collapse collapse">
+                                            <!-- nav -->
+                                            <ul class="nav navbar-nav">
+                                               <!-- <li><a href="index.html" class="home-color">home</a></li>
+                                                <li>
+                                                    <a href="#">pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="about-us.html">about us</a></li>
+                                                        <li><a href="staff-detail.html">teacher detail</a></li>
+                                                        <li><a href="gallery.html">our gallery</a></li>
+                                                        <li><a href="error.html">error 404</a></li>
+                                                        <li><a href="register.html">register</a></li>
+                                                        <li><a href="comming-soon.html">comming soon</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">service<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="service.html">Services Main</a></li>
+                                                        <li><a href="service-detail.html">service details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">blog<i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="blog-style-1.html">Blogs Style 1</a></li>
+                                                        <li><a href="blog-style-2.html">Blogs Style 2</a></li>
+                                                        <li><a href="blog-style-3.html">Blogs Style 3</a></li>
+                                                        <li class="left-side">
+                                                            <a href="#" class="hidden-xs">Single Blog <i class="fa fa-angle-right hidden-xs" aria-hidden="true"></i></a>
+                                                            <a href="#" class="hidden-sm hidden-lg hidden-md">Single Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="blog-single-sidebar.html">With Sidebar</a></li>
+                                                                <li><a href="blog-single-full-width.html">Without Sidebar</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="faq.html">faqs</a></li>
+                                                <li><a href="contact.html">contact</a></li>-->
+                                                <li><a href="#" class="home-color">home</a></li>
+                                                <li><a href="#">about us</a></li>
+                                                <li><a href="#">Our Facilities</a></li> 
+                                                <li><a href="#">teacher</a></li>
+                                                <li><a href="#">our gallery</a></li>
+                                                <li><a href="#">register</a></li>
+                                                <li><a href="#">contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- navbar-collapse -->
+                                    </div>
+                                </div>
+                                <!-- col-md-12 -->
+                            </div>
+                            <!-- row -->
+                        </div>
+                        <!-- container -->
+                    </div>
+                    <!-- navbar -->
+                </div>
+                <!--  Menu -->
+            </div>
+        </header>
+        <!--//================Header end==============//--> 
+        <!--//================Slider start==============//--> 
+        <section id="slider-section">
+            <div id="main-slider" class="owl-carousel owl-theme slider positionR">
+                <div class="item positionR">
+                    <figure class="slider-image positionR">
+                        <img src="assets/img/slider/main-1.jpg" alt="" class="hidden-xs"/>
+                        <img src="assets/img/slider/main-xs-1.jpg" alt="" class="hidden-sm hidden-lg hidden-md"/>
+                    </figure>
+                    <div class="slider-text positionA text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
+                                    <h1>Harry's House</h1>
+                                    <h2>Care School for baby</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text everwhen an unknown 
+                                        a galley of type an a type specimen 
+                                    </p>
+                                    <a href="register.html" class="itg-button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item positionR">
+                    <figure class="slider-image positionR">
+                        <img src="assets/img/slider/main-2.jpg" alt="" class="hidden-xs"/>
+                        <img src="assets/img/slider/main-xs-2.jpg" alt="" class="hidden-sm hidden-lg hidden-md"/>
+                    </figure>
+                    <div class="slider-text positionA text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
+                                    <h1>Baby House</h1>
+                                    <h2>Care School for baby</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text everwhen an unknown 
+                                        a galley of type an a type specimen 
+                                    </p>
+                                    <a href="register.html" class="itg-button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item positionR">
+                    <figure class="slider-image positionR">
+                        <img src="assets/img/slider/main-3.jpg" alt="" class="hidden-xs"/>
+                        <img src="assets/img/slider/main-xs-3.jpg" alt="" class="hidden-sm hidden-lg hidden-md"/>
+                    </figure>
+                    <div class="slider-text positionA text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
+                                    <h1>Baby House</h1>
+                                    <h2>Care School for baby</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text everwhen an unknown 
+                                        a galley of type an a type specimen 
+                                    </p>
+                                    <a href="register.html" class="itg-button">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================Slider end==============//-->
+        <div class="clear"></div>
+        <!--//================services starts==============//-->
+        <section class="padT50 padB20 theme-border-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 padB30">
+                        <div class="service-icon theme-icon color-pink">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Opening hours</h4>
+                            <p>9.00 am - 5pm</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 padB30">
+                        <div class="service-icon theme-icon color-orange">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Our Email</h4>
+                            <p>info@itgeeks.in</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 padB30">
+                        <div class="service-icon theme-icon color-green">
+                            <i class="fa fa-bus" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Bust Timinng</h4>
+                            <p>8.00 am (for  kids only)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 padB30">
+                        <div class="service-icon theme-icon color-purple">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>Phone Number</h4>
+                            <p>+91 9039840784</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================services end==============//-->
+        <div class="clear"></div>
+        <!--//================About starts==============//-->
+        <section class="padT80 padB80">
+            <div class="container marB50">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color green pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-bus" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title"><a href="service.html">BUS SERVICE</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color theme-bg pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title"><a href="service.html">MANY SPORTS</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color yellow pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title"><a href="service.html">Interactive Elements</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color orange pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title"><a href="service.html">CUSTOM FOOD</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color purple pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-music" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title"><a href="service.html">MUSIC LESSON</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-color pink pad30 marB30">
+                            <div class="service-icon">
+                                <i class="fa fa-language" aria-hidden="true"></i>
+                            </div>
+                            <div class="service-text text-left">
+                                <h4 class="title"><a href="service.html">LANGUAGES</a></h4>
+                                <p>Class aptent taciti estied 
+                                    aliquam ellus pers piciat unde 
+                                    omnis dolorem dantium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div id="about-us-slider" class="owl-carousel owl-theme slider positionR marB30">
+                            <div class="item">
+                                <figure class="slider-margin">
+                                    <img src="assets/img/slider/About-us-1.jpg" alt=""/>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure class="slider-margin">
+                                    <img src="assets/img/slider/About-us-2.jpg" alt=""/>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure class="slider-margin">
+                                    <img src="assets/img/slider/About-us-3.jpg" alt=""/>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure class="slider-margin">
+                                    <img src="assets/img/slider/About-us-4.jpg" alt=""/>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="about-us marB0">
+                            <h3 class="marB10">Why Choose Us</h3>
+                            <p class="text-left">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                                auctor a ornare odio. sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                Morbi accumsan ipsum velit. Sed non  mauris vitae erat.
+                            </p>
+                            <p class="text-left marB30">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum
+                                sit amet a augue.
+                            </p>
+                            <a href="about-us.html" class="itg-button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================About end==============//-->
+        <div class="clear"></div>
+        <!--//================Facilities starts==============//-->
+        <section>
+            <div class="bg-curve-img special-style theme-overlay">
+                <!-- <div class="facilities-image parallax-style"></div> -->
+            </div>
+            <div class="facilities padTB80">
+                <!--- Theme heading start-->
+                <div class="theme-heading marB30 positionR">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
+                                <h3 class="colorW marB10">Our Facilities</h3>
+                                <span class="colorW marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
+                                <p class="colorW marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
+                                    elit, sed diam nonummy nibh
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--- Theme heading end-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12 pull-right">
+                            <div id="facilities-slider" class="owl-carousel owl-theme slider positionR marB30">
+                                <div class="item">
+                                    <figure class="slider-margin">
+                                        <img src="assets/img/slider/facilities-1.jpg" alt=""/>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure class="slider-margin">
+                                        <img src="assets/img/slider/facilities-2.jpg" alt=""/>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure class="slider-margin">
+                                        <img src="assets/img/slider/facilities-3.jpg" alt=""/>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure class="slider-margin">
+                                        <img src="assets/img/slider/facilities-4.jpg" alt=""/>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="facilities-details">
+                                <h3 class="colorW text-left marB10">Release of Letraset sheets containing</h3>
+                                <p class="colorW text-left marB30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                    nonummy nibh euismod.  Praesent interdum est gravida vehicula est
+                                    node maecenas loareet morbi.
+                                </p>
+                                <div class="row hidden-sm">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="service-color service-facility marB30">
+                                            <div class="service-icon">
+                                                <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="service-text text-left">
+                                                <h4 class="title"><a href="#">MANY SPORTS</a></h4>
+                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="service-color service-facility marB30">
+                                            <div class="service-icon">
+                                                <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="service-text text-left">
+                                                <h4 class="title"><a href="#">Painting</a></h4>
+                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="service-color service-facility marB30">
+                                            <div class="service-icon text-left">
+                                                <i class="fa fa-book" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="service-text">
+                                                <h4 class="title"><a href="#">LIBRARY</a></h4>
+                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="service-color service-facility marB30">
+                                            <div class="service-icon">
+                                                <i class="fa fa-music" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="service-text text-left">
+                                                <h4 class="title"><a href="#">MUSIC LESSON</a></h4>
+                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="hidden-xs hidden-md hidden-lg">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-color service-facility marB30">
+                                    <div class="service-icon">
+                                        <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="service-text text-left">
+                                        <h4><a href="#">MANY SPORTS</a></h4>
+                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-color service-facility marB30">
+                                    <div class="service-icon">
+                                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="service-text text-left">
+                                        <h4><a href="#">Painting</a></h4>
+                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-color service-facility marB30">
+                                    <div class="service-icon text-left">
+                                        <i class="fa fa-book" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="service-text">
+                                        <h4><a href="#">LIBRARY</a></h4>
+                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="service-color service-facility marB30">
+                                    <div class="service-icon">
+                                        <i class="fa fa-music" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="service-text text-left">
+                                        <h4><a href="#">MUSIC LESSON</a></h4>
+                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================Facilities end==============//-->
+        <div class="clear"></div>
+        <!--//================Gallery starts==============//-->
+        <section class="padT80 padB50">
+            <!--- Theme heading start-->
+            <div class="theme-heading marB30 positionR">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
+                            <h3 class="theme-color marB10">Our Gallery</h3>
+                            <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
+                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
+                                elit, sed diam nonummy nibh
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- Theme heading end-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12 marB30">
+                                <div class="theme-hover theme-hover-pink">
+                                    <figure>
+                                        <img src="assets/img/gallery/1.jpg" alt="">
+                                        <figcaption><a href="assets/img/fancy-box/4.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 marB30">
+                                <div class="theme-hover theme-color-hover">
+                                    <figure>
+                                        <img src="assets/img/gallery/2.jpg" alt="">
+                                        <figcaption><a href="assets/img/fancy-box/6.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 marB30">
+                                <div class="theme-hover theme-orange-hover">
+                                    <figure>
+                                        <img src="assets/img/gallery/3.jpg" alt="" class="hidden-xs">
+                                        <img src="assets/img/gallery/16.jpg" alt="" class="hidden-md hidden-lg hidden-sm">
+                                        <figcaption><a href="assets/img/fancy-box/3.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 marB30">
+                                <div class="theme-hover theme-color-purple">
+                                    <figure>
+                                        <img src="assets/img/gallery/4.jpg" alt="" class="hidden-xs">
+                                        <img src="assets/img/gallery/8.jpg" alt="" class="hidden-md hidden-lg hidden-sm">
+                                        <figcaption><a href="assets/img/fancy-box/7.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================Gallery end==============//-->
+        <div class="clear"></div>
+        <!--//================Our Staff starts==============//-->
+        <section class="bg-curve-img padT50 padB50 bagG">
+            <!--- Theme heading start-->
+            <div class="theme-heading marB30 positionR">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
+                            <h3 class="theme-color marB10">Our Staff</h3>
+                            <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
+                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
+                                elit, sed diam nonummy nibh
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--- Theme heading end-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="theme-hover theme-color-hover marB30">
+                            <figure class="img-shadow">
+                                <img src="assets/img/teachers/1.jpg" alt="">
+                                <figcaption><a href="#"><span class="icon basic-link"></span></a></figcaption>
+                            </figure>
+                            <div class="staff-details text-center padT20">
+                                <h4><a href="#">John Doe</a></h4>
+                                <p class="theme-color marB10">Class Teacher</p>
+                                <p class="mar0">
+                                    <a href="#" class="circle hover-blue"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-blue active-blue"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-blue"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="theme-hover theme-color-green marB30">
+                            <figure class="img-shadow">
+                                <img src="assets/img/teachers/2.jpg" alt="">
+                                <figcaption><a href="#"><span class="icon basic-link"></span></a></figcaption>
+                            </figure>
+                            <div class="staff-details text-center padT20">
+                                <h4><a href="#">John Doe</a></h4>
+                                <p class="theme-color marB10">Game Teacher</p>
+                                <p class="mar0">
+                                    <a href="#" class="circle hover-green"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-green active-green"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-green"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="theme-hover theme-orange-hover marB30">
+                            <figure class="img-shadow">
+                                <img src="assets/img/teachers/3.jpg" alt="">
+                                <figcaption><a href="#"><span class="icon basic-link"></span></a></figcaption>
+                            </figure>
+                            <div class="staff-details text-center padT20">
+                                <h4><a href="#">John Doe</a></h4>
+                                <p class="theme-color marB10">Subject Teacher</p>
+                                <p class="mar0">
+                                    <a href="#" class="circle hover-orange"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-orange active-orange"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="circle hover-orange"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--//================Our Staff end==============//-->
+        <div class="clear"></div>
+        <!--//================Footer start==============//-->
+        <footer class="main_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-box padT80 padB50">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="foot-sec marB30">
+                                <h4 class="title colorW marB20">about us</h4>
+                                <ul class="text">
+                                    <li> 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's;
+                                    </li>
+                                    <li> 
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <span>hello@gmail.com</span>
+                                    </li>
+                                    <li> 
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <span>P: 040 222 1111</span>
+                                    </li>
+                                    <li> 
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        <span> 99 Barnard St - Suite 111 Telangana States - IN 500001 </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="foot-sec marB30">
+                                <h4 class="title colorW marB20">Quick Links</h4>
+                                <ul class="pad0">
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Home</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>About U</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Teacher</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Our Gallery</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Register</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="foot-sec foot-img-box marB30">
+                                <h4 class="title colorW marB20">Recent Work</h4>
+                                <ul class="pad0">
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(1).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(2).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(3).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(4).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(5).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(6).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(7).jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="assets/img/all/foot-001%20(8).jpg" alt=""/></a></li>
+                                </ul>
+                                <p><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>View more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="foot-sec marB30">
+                                <h4 class="title colorW marB20">Map</h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698331263!2d78.26795765175352!3d17.412299800328846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C+Telangana!5e0!3m2!1sen!2sin!4v1522914004571" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer padTB20 bagB">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                            <a href="#" id="pagetop" class="footer-icon hidden-xs"><i class="fa fa-arrow-up hidden-xs" aria-hidden="true"></i></a>
+                            <p>&copy; Copyright 2018  All Right Reserved <a href="http://www.jashya.com/"><span class="theme-color">Jashya</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--//================Footer end==============//--> 	
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/plugin/megamenu/js/hover-dropdown-menu.js"></script>
+        <script src="assets/plugin/megamenu/js/jquery.hover-dropdown-menu-addon.js"></script>
+        <script src="assets/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="assets/plugin/fancyBox/js/jquery.fancybox.pack.js"></script>
+        <script src="assets/plugin/fancyBox/js/jquery.fancybox-media.js"></script> 
+        <script src="assets/js/main.js"></script>
+    </body>
+
+<!-- Mirrored from preview.itgeeksin.com/baby-house-html/demo2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Apr 2018 05:46:57 GMT -->
+</html>

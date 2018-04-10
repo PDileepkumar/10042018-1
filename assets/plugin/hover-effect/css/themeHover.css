@@ -1,0 +1,57 @@
+.theme-hover figure {
+    position: relative;
+}
+.theme-hover figure img{
+	width:100%;
+}
+.theme-hover figure:after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+	z-index:1;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+.theme-hover figure figcaption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin-top: -25px;
+	z-index:2;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+.theme-hover figure figcaption a span.icon ,
+.theme-hover figure figcaption a i {
+    color: #fff;
+    font-size: 50px;
+    display: inline-block;
+	-webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+}
+.theme-hover:hover.theme-hover figure:after{
+    opacity: 0.8;
+	visibility:visible;
+}
+
+.theme-hover:hover.theme-hover figure figcaption{
+	 opacity:1;
+	visibility:visible;
+}

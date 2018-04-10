@@ -1,0 +1,73 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Baby House - Kids School, Kinder Garden & Play School Multipurpose HTML5 Template
+Version:	1.0.0
+Assigned to:	Themeforest
+Primary use:	Kids, School, Education, Responsive, Play School 
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Fonts
+2. Body / body
+3. Common Css
+   3.1 Reset Style / img
+   3.2 Form Inputs / input
+   3.3 Button Style / .itg-button
+   3.4 Padding Style / .pad0
+   3.5 Margin Style / .mar0
+4. Header Style
+   4.1 Top Header / .top-bar
+   4.2 Navigation Bar / .navbar-brand
+5. Main Slider / .slider-text
+6. Heading Style / .theme-heading
+7. Service Style / .service-icon
+8. Search Bar / .search_bar
+9. Facilities / .facilities-image
+10. Our Staff / .circle
+11. Blog Style / .blog-detail
+12. Page Header / .bredcrumb-section
+13. Owl nav Style / .carousel-style-1
+14. Preloader / .preloader
+15. Pages Style
+    15.1 Sidebar / .recent-posts
+    15.2 Comment Area / .comment-box
+    15.3 Pagination / .pagination-box
+    15.4 Progress Bar / .progress-bar
+    15.5 Contact Us / .address-details
+    15.6 Faq Style / .faq
+    15.7 Comming Soon / .comming-soon-image
+16. Footer Style / .foot-sec
+
+-------------------------------------------------------------------*/
+
+/*---bootstap.CSS ---*/
+@import url("assets/css/bootstrap.min.css");
+/*---mega menu .CSS ---*/
+@import url("assets/plugin/megamenu/css/hover-dropdown-menu.css");
+ /*---fancybox.CSS ---*/
+@import url("assets/plugin/fancyBox/css/jquery.fancybox.css");
+/*---acordian.CSS ---*/
+@import url("assets/plugin/acordian/css/jquery-ui.css");
+/*---owl-carousal.CSS ---*/
+@import url("assets/plugin/owl-carousel/css/owl.carousel.css");
+@import url("assets/plugin/owl-carousel/css/owl.theme.default.css");
+/*---fontawesome.CSS  font ---*/
+@import url("assets/plugin/font-awesome/css/font-awesome.min.css");
+/* theme  linia icon CSS*/
+@import url("assets/plugin/iconfonts/css/iconfont.css");
+/* theme effect hover CSS*/
+@import url("assets/plugin/hover-effect/css/themeHover.css");
+/* animation CSS*/
+@import url("assets/plugin/animate/css/animate.css");
+/*---STYLE.CSS inluad style---*/
+@import url("assets/css/style.css");
+/*---responsive.CSS inluad style---*/
+@import url("assets/css/responsive.css");
+/*---color.CSS inluad color---*/
+@import url("assets/css/color.css");
+
+
+
