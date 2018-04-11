@@ -101,7 +101,7 @@ h6 {
     position: absolute;
 }
 .bagB {
-    background: black;
+    background: #1154a2;
 }
 .bagW {
     background: White;
@@ -1670,7 +1670,8 @@ a.ui-button:active,
     width: 100%;
 }
 .main_footer {
-    background-image: url('../img/background/footer-background.jpg');
+   /* background-image: url('../img/background/footer-background.jpg');*/
+    background-color: #0e6dda;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;

@@ -1016,6 +1016,7 @@ header .navbar-collapse{
 	}
 	.navbar-brand > img{
 		margin: 0 auto;
+		max-width: 90%;
 	}
 	.navbar-right{
 		float: none !important;

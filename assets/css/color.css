@@ -12,7 +12,7 @@ a:focus,
 .navbar-default .navbar-nav li .dropdown-menu li:nth-child(1) a,
 .navbar-default .navbar-nav li .dropdown-menu li:nth-child(9) a,
 .color-orange {
-    color: #907ee2;
+    color: #002147;
 }
 
 ul.nav.navbar-nav li a.home-color:hover
@@ -47,7 +47,7 @@ span.pg-active-orange,
 .navbar-default .navbar-nav li .dropdown-menu li:nth-child(9) a:hover,
 ul.nav.navbar-nav li .home-color:hover,
 .orange {
-    background-color: #907ee2;
+    background-color: #002147;
 }
 .theme-border-bottom,
 .ui-state-active,
@@ -321,5 +321,9 @@ ul.nav.navbar-nav li:nth-child(7) a {
 }
 .sky-blue {
 	 background-color:#00C3C9;
+}
+/*footer copy right*/
+.jashya{
+	color: #f8e356;
 }
 
