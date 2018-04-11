@@ -133,7 +133,7 @@ function owlCarouselInit() {
             nav: true,
             navText: [prevNav, nextNav],
             dots: false,
-            autoplay: false,
+            autoplay: true,
             responsive: {
                 0: {
                     items: 1
